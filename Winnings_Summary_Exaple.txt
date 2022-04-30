@@ -1,0 +1,13 @@
+Here is your summary! You chose 10 numbers for 10000 extractions. The results: 
+
+- Guessed 0 numbers 682 times 
+- Guessed 1 numbers 2288 times 
+- Guessed 2 numbers 3117 times 
+- Guessed 3 numbers 2366 times 
+- Guessed 4 numbers 1148 times 
+- Guessed 5 numbers 329 times 
+- Guessed 6 numbers 63 times 
+- Guessed 7 numbers 7 times 
+- Guessed 8 numbers 0 times 
+- Guessed 9 numbers 0 times 
+- Guessed 10 numbers 0 times 
