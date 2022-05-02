@@ -22,11 +22,21 @@ def generateSummary(chosenNumbers):
     return result
 
 def printSummary(winningsSummary,chosenNumbers,extractionTimes):
-    file = open("Winnings_Summary.txt","w")
-    file.write(("Here is your summary! You chose " + str(len(chosenNumbers)) + " numbers for " 
-    + str(extractionTimes) + " extractions."  + " The results: \n\n"))
+
+    chosenNumbersAmount = str(len(chosenNumbers))
+    amountOfExtractions = str(extractionTimes)
+
+    file = open("./ExtractionsSummary.txt","w")
+    file.write(("Here is your summary! You chose " + chosenNumbersAmount + " numbers for " 
+    + amountOfExtractions + " extractions."  + " The results: \n\n"))
     
     for key in winningsSummary:
-        file.write("- Guessed " + str(key) + " numbers " + str(winningsSummary[key]) + " times \n")
+        winningsAmount = str(winningsSummary[key])
+        keyStr = str(key)
+
+        
+        percentage = str(round(((float(winningsAmount) / int(amountOfExtractions)) * 100),2))
+
+        file.write("- Guessed " + keyStr + " numbers " + winningsAmount + " times ( " + percentage + "% ) \n")
 
     file.close

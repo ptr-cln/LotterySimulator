@@ -1,0 +1,13 @@
+Here is your summary! You chose 10 numbers for 10000 extractions. The results: 
+
+- Guessed 0 numbers 678 times ( 6.78% ) 
+- Guessed 1 numbers 2347 times ( 23.47% ) 
+- Guessed 2 numbers 3141 times ( 31.41% ) 
+- Guessed 3 numbers 2324 times ( 23.24% ) 
+- Guessed 4 numbers 1100 times ( 11.0% ) 
+- Guessed 5 numbers 330 times ( 3.3% ) 
+- Guessed 6 numbers 68 times ( 0.68% ) 
+- Guessed 7 numbers 11 times ( 0.11% ) 
+- Guessed 8 numbers 1 times ( 0.01% ) 
+- Guessed 9 numbers 0 times ( 0.0% ) 
+- Guessed 10 numbers 0 times ( 0.0% ) 
