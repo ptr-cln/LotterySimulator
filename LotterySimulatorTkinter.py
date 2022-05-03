@@ -27,15 +27,14 @@ def buttonClick():
     if(generateFileVar.get()):
         printSummary(winningsSummary,chosenNumbers,extractionTimes)
 
-
-
 frame = Tk()
-generateFileVar=BooleanVar()
-summaryVar=StringVar()
-
 frame.title("LotterySimulator")
 frame.geometry("400x420")
 frame.configure(background="#3e81c7")
+frame.iconbitmap("resources/Money.ico")
+
+generateFileVar=BooleanVar()
+summaryVar=StringVar()
 
 labelChosenNumbers = Label(frame,text="Chosen Numbers (separated by comma):" , background="#3e81c7",font="MSSerif 13 bold")
 labelChosenNumbers.pack(side="top",anchor=NW)
