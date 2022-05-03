@@ -9,7 +9,7 @@ Finally, it generates a file (ExtractionsSummary.txt) with a summary of how many
 You can launch this script by "LotterySimulatorMain.py" (Without GUI).
 You can also launch this script by "LotterySimulatorTkinter.py" (With a simple GUI):
 
-![Alt text](resources\GUI_Screenshot.JPG?raw=true)
+![Alt text](https://raw.githubusercontent.com/ptr-cln/LotterySimulator/main/resources/GUI_Screenshot.JPG)
 
 Good Luck :)
 
