@@ -1,7 +1,7 @@
 from LotterySimulatorUtilities import *
 
-chosenNumbers = [1,10,20,30,40,50,60,70,80,90]
-extractionTimes = 10000
+chosenNumbers = checkChosenNumbers([1,10,20,30,40,50,60,70,80,90])
+extractionTimes = checkIfNumeric(1000)
 
 winningsSummary = generateSummary(chosenNumbers)
 
